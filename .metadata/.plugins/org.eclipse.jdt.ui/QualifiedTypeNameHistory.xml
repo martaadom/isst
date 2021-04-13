@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.ws.rs.ApplicationPath"/>
+<fullyQualifiedTypeName name="org.glassfish.jersey.server.ResourceConfig"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.GET"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="com.google.common.net.MediaType"/>
+<fullyQualifiedTypeName name="es.upm.dit.isst.bc.dao.ClienteDAOImplementation"/>
+<fullyQualifiedTypeName name="es.upm.dit.isst.bc.model.Cliente"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+</qualifiedTypeNameHistroy>

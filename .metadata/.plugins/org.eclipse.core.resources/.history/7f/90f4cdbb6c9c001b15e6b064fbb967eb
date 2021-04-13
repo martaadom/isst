@@ -1,0 +1,10 @@
+package es.upm.dit.isst.bc.model;
+
+public interface Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	public Serializable() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+}

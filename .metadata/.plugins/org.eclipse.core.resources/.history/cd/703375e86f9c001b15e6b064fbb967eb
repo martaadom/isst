@@ -1,0 +1,45 @@
+package es.upm.dit.isst.bc.dao;
+
+import java.util.List;
+
+import es.upm.dit.isst.bc.model.Cliente;
+
+public class ClienteDAOImplementation implements ClienteDAO {
+
+	@Override
+	public void create(Cliente cliente) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Cliente read(String email) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update(Cliente cliente) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(Cliente cliente) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Cliente> readAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Cliente login(String email, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package es.upm.dit.isst.bc.dao;
+
+public class ComercioDAO {
+
+}

@@ -1,0 +1,36 @@
+package es.upm.dit.isst.bc.model;
+
+import java.io.Serializable;
+import java.util.*;
+import javax.persistence.*;
+
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
+
+@Entity
+public class Pedido implements Serializable{
+
+    private static final long serialVersionUID = 1L;
+
+    @Id
+	private int idPedido;
+	private String idComercio;
+	private String idRepartidor;
+	private String idCliente;
+	private String  horario; //??????????????????????????
+	private String listaProductos;
+	
+	
+	
+	
+	public Pedido() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+
+}
+
