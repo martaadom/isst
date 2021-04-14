@@ -7,7 +7,7 @@ import es.upm.dit.isst.bc.model.Comercio;
 
 
 public interface ComercioDAO {
-	public void create(Comercio comercio);
+	public Comercio create(Comercio comercio);
 	public Comercio read(String email);
 	public void update(Comercio comercio);
 	public void delete(Comercio comercio);

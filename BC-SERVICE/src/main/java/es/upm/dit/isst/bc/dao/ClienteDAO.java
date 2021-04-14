@@ -7,7 +7,7 @@ import es.upm.dit.isst.bc.model.Cliente;
 
 
 public interface ClienteDAO {
-	public void create(Cliente cliente);
+	public Cliente create(Cliente cliente);
 	public Cliente read(String email);
 	public void update(Cliente cliente);
 	public void delete(Cliente cliente);

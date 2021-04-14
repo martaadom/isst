@@ -7,7 +7,7 @@ import es.upm.dit.isst.bc.model.Pedido;
 
 
 public interface PedidoDAO {
-	public void create(Pedido pedido);
+	public Pedido create(Pedido pedido);
 	public Pedido read(String idPedido);
 	public void update(Pedido pedido);
 	public void delete(Pedido pedido);

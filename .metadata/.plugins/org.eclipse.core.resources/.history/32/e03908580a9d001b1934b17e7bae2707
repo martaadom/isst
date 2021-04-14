@@ -1,0 +1,23 @@
+$(document).ready(function(){
+$.ajax({
+url: '/BC-SERVICE/rest/Clientes',
+type: 'get',
+dataType: 'JSON',
+success: function(response){
+var len = response.length;
+for(var i=0; i<len; i++){
+var email = response[i].email;
+var location = response[i].location;
+var password = response[i].password;
+var type = response[i].type;
+var tr_str = "<tr>" +
+"<td align='center'>" + email + "</td>" +
+"<td align='center'>" + location + "</td>" +
+"<td align='center'>" + password + "</td>" +
+"<td align='center'>" + type + "</td>" +
+"</tr>";
+$("#userTable tbody").append(tr_str);
+}
+}
+});
+});
